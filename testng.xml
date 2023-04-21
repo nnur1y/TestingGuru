@@ -3,13 +3,8 @@
 <suite name="Suite1" verbose="1" >
     <test name="Nopackage" >
         <classes>
-            <class name="FirstTestClass">
-            <methods>
-                <include name="loginTest"></include>
-            </methods>
+            <class name="tests.GuruTest">
             </class>
         </classes>
     </test>
-
-
 </suite>

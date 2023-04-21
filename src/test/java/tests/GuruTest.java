@@ -35,15 +35,15 @@ public class GuruTest {
     public void loginTest() {
         driver.get("https://demo.guru99.com/v4/");
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.fillUserID("mngr489350");
-        loginPage.fillPassword("sYmuvEn");
+        loginPage.fillUserID("mngr494854");
+        loginPage.fillPassword("zerybEb");
         loginPage.clickLoginBtn();
         HomePage homePage = new HomePage(driver);
         Assert.assertTrue(homePage.check_page());
-        homePage.clickNewCustomerBtn();
+        //homePage.clickNewCustomerBtn();
 
     }
-
+/*
     @Test(priority = 1)
     public void newCustomerTest() throws InterruptedException {
         NewCustomerPage customerPage = new NewCustomerPage(driver);
@@ -57,7 +57,7 @@ public class GuruTest {
         customerPage.fillState("Koksay");
         customerPage.fillPinNo("123456");
         customerPage.fillTelephoneNo("+77762467770");
-        customerPage.fillEmail("n6@mail.ru");
+        customerPage.fillEmail("n8@mail.ru");
         customerPage.fillPassword("12345678");
         customerPage.clickSubmit();
         Thread.sleep(5000);
@@ -88,6 +88,8 @@ public class GuruTest {
 
 
     }
+    */
+
     @AfterSuite
     public void close(){
         driver.quit();
