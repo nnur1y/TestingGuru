@@ -36,9 +36,9 @@ public class GuruTest {
         driver.get("https://demo.guru99.com/v4/");
         LoginPage loginPage = new LoginPage(driver);
         //past
-         //loginPage.fillUserID("mngr494854");
+         loginPage.fillUserID("mngr494854");
         //fail
-        loginPage.fillUserID("mngr49485");
+       // loginPage.fillUserID("mngr49485");
         loginPage.fillPassword("zerybEb");
         loginPage.clickLoginBtn();
         HomePage homePage = new HomePage(driver);
