@@ -35,7 +35,10 @@ public class GuruTest {
     public void loginTest() {
         driver.get("https://demo.guru99.com/v4/");
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.fillUserID("mngr494854");
+        //past
+         //loginPage.fillUserID("mngr494854");
+        //fail
+        loginPage.fillUserID("mngr49485");
         loginPage.fillPassword("zerybEb");
         loginPage.clickLoginBtn();
         HomePage homePage = new HomePage(driver);
