@@ -10,7 +10,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.programmingfree.springservice.Application</start-class>
     </properties>
 
     <dependencies>
